@@ -1,0 +1,33 @@
+﻿@font-face {
+    font-family: 'HussarBold';
+    src: url('HussarBold.ttf') format('truetype');
+}
+
+/*MASTER*/
+.tabeMaster{
+    width:100%;
+}
+
+.contImaText {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width:100%;
+}
+
+.tittle {
+    position: absolute;
+    top: 32%;
+    left: 2%;
+    color: white;
+    font-family: HussarBold;
+    font-size:25px;
+}
+
+.imaCirculo {
+    position: absolute;
+    top: 30%;
+    left: 12%;
+}
+
+/*FIN MASTER*/

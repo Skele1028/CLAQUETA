@@ -78,6 +78,7 @@
     <Content Include="Modulos\PerfilUsuario.aspx" />
     <Content Include="Modulos\Registro.aspx" />
     <Content Include="Modulos\SalasDeCine.aspx" />
+    <Content Include="Scripts\Registro.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -149,6 +150,7 @@
   <ItemGroup>
     <Content Include="Master\Principal.Master" />
     <Content Include="Estilos\HussarBold.ttf" />
+    <Content Include="Estilos\Arimo-Bold.ttf" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -157,9 +159,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Scripts\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

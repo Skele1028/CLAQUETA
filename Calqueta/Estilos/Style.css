@@ -3,9 +3,18 @@
     src: url('HussarBold.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'Arimo-Bold';
+    src: url('Arimo-Bold.ttf') format('truetype');
+}
+
 /*MASTER*/
-.tabeMaster{
+.tableMaster{
     width:100%;
+}
+
+.trSup{
+    background-color:black;
 }
 
 .contImaText {
@@ -36,12 +45,75 @@
     color: black;
     width:100%;
     height:25%;
-    
-    justify-content:space-around;
 }
 
-.contMenu {
-
+label {
+    font-family:Arimo-Bold;
+}
+.contentBts {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+.button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
 }
 
 /*FIN MASTER*/
+
+/*REGISTRO*/
+
+.tableResgitro {
+    width:100%;
+}
+td {
+    width: 50%;
+    
+}
+/*listBox*/
+.txbT {
+    width: 95%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+input[type=password] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+input[type=text] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.asteriscos {
+    color: red;
+}
+
+
+/*FIN REGISTRO*/

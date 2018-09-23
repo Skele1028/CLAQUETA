@@ -13,7 +13,7 @@
     <form id="form1" runat="server">
         <div>
             <table class="tableMaster">
-                <tr>
+                <tr class ="trSup">
                     <td>
                         <div class="contImaText">
                             <asp:Image ID="ImaTablaCine" runat="server" Height="2%" ImageUrl="~/Images/TablaCine.png" Width="100%" />
@@ -42,12 +42,12 @@
                 </tr>
                 <tr>
                     <td>
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-            </asp:ContentPlaceHolder>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
                     </td>
                 </tr>
                 <tr>
-                    <td>&nbsp;</td>
+                    <td>pie de pagina</td>
                 </tr>
             </table>
         </div>

@@ -40,8 +40,8 @@
                     <tr>
                         <td class="tdIma"></td>
                         <td class="tdTx">
-                            <asp:Button ID="btIngresar" runat="server" CssClass="button" Text="Ingresar" />
-                            <asp:Button ID="btSalir" runat="server" CssClass="button" Text="   Salir   "  />
+                            <asp:Button ID="btIngresar" runat="server" CssClass="button" OnClick="btIngresar_Click" onSubmit="return validar_clave()" Text="Ingresar" />
+                            <asp:Button ID="btSalir" runat="server" CssClass="button" Text="   Salir   "  OnClick="btSalir_Click"/>
                         </td>
                     </tr>
                 </table>

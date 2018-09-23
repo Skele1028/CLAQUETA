@@ -63,8 +63,8 @@
                 <td></td>
                 <td>
                     <div class="contentBts">
-                        <asp:Button class="button" ID="btRegistrar" runat="server" Text="Registrarse" />
-                        <asp:Button class="button" ID="btSalir" runat="server" Text="   Salir   " />
+                        <asp:Button class="button" ID="btRegistrar" runat="server" OnClick="btIngresar_Click" onSubmit="return validar_clave()" Text="Registrarse" />
+                        <asp:Button class="button" ID="btSalir" runat="server" OnClick="btSalir_Click" Text="   Salir   " />
                    </div>
                 </td>
             </tr>

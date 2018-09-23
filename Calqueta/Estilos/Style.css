@@ -50,6 +50,28 @@
 label {
     font-family:Arimo-Bold;
 }
+.enlace {
+    font-family: Arimo-Bold;
+}
+
+input[type=password] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+input[type=text] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
 .contentBts {
     display: flex;
     justify-content: space-around;
@@ -71,11 +93,9 @@ label {
     cursor: pointer;
     border-radius: 12px;
 }
-
 /*FIN MASTER*/
 
 /*REGISTRO*/
-
 .tableResgitro {
     width:100%;
 }
@@ -93,27 +113,43 @@ td {
     border-radius: 6px;
 }
 
-input[type=password] {
-    width: 90%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-}
-
-input[type=text] {
-    width: 90%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-}
-
 .asteriscos {
     color: red;
 }
-
-
 /*FIN REGISTRO*/
+
+/*INICIO SECCION*/
+.contInicio {
+    /*descomentar para que quede sobre el fondo*/
+    /* position: relative;*/
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    /* background-color: silver;  */
+}
+
+.formuInicio {
+    /*cambiar posicion a absolute para que quede sobre el fondo*/
+    position: relative;
+    top: 20%;
+    left: 25%;
+    width: 50%;
+    border: solid;
+}
+
+.tableInicio {
+    font-family:Arimo-Bold;
+}
+
+.imagenes{
+    width:70px;
+}
+
+.tdIma{
+    width:8%;
+}
+
+.tdTx{
+    width:40%
+}
+

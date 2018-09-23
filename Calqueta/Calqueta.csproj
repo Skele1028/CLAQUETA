@@ -69,7 +69,9 @@
   <ItemGroup>
     <Content Include="Images\circulo.png" />
     <Content Include="Estilos\Style.css" />
+    <Content Include="Images\lock.png" />
     <Content Include="Images\TablaCine.png" />
+    <Content Include="Images\user.png" />
     <Content Include="Modulos\DescripcionPeliculas.aspx" />
     <Content Include="Modulos\Estrenos.aspx" />
     <Content Include="Modulos\InicioSeccion.aspx" />
@@ -78,6 +80,7 @@
     <Content Include="Modulos\PerfilUsuario.aspx" />
     <Content Include="Modulos\Registro.aspx" />
     <Content Include="Modulos\SalasDeCine.aspx" />
+    <Content Include="Scripts\InicioSeccion.js" />
     <Content Include="Scripts\Registro.js" />
     <Content Include="Web.config" />
   </ItemGroup>

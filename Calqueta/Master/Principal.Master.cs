@@ -13,5 +13,20 @@ namespace Calqueta.Master
         {
 
         }
+
+        protected void MenuPrinc_MenuItemClick(object sender, MenuEventArgs e)
+        {
+
+        }
+
+        protected void MenuPrinc_MenuItemClick1(object sender, MenuEventArgs e)
+        {
+
+        }
+
+        protected void MenuPrinc_MenuItemClick2(object sender, MenuEventArgs e)
+        {
+
+        }
     }
 }

@@ -12,7 +12,7 @@
     position: relative;
     display: inline-block;
     text-align: center;
-    width:100%;
+    width: 100%;
 }
 
 .tittle {
@@ -21,13 +21,27 @@
     left: 2%;
     color: white;
     font-family: HussarBold;
-    font-size:25px;
+    font-size:150%;
 }
 
 .imaCirculo {
     position: absolute;
     top: 30%;
     left: 12%;
+}
+
+.menuPrinc {
+    font-family:HussarBold;
+    font-size:25px;
+    color: black;
+    width:100%;
+    height:25%;
+    
+    justify-content:space-around;
+}
+
+.contMenu {
+
 }
 
 /*FIN MASTER*/

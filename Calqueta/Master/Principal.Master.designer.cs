@@ -40,15 +40,6 @@ namespace Calqueta.Master {
         protected global::System.Web.UI.WebControls.Image ImaTablaCine;
         
         /// <summary>
-        /// Menu1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Menu Menu1;
-        
-        /// <summary>
         /// ImaCirculo control.
         /// </summary>
         /// <remarks>
@@ -56,6 +47,15 @@ namespace Calqueta.Master {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Image ImaCirculo;
+        
+        /// <summary>
+        /// MenuPrinc control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Menu MenuPrinc;
         
         /// <summary>
         /// ContentPlaceHolder1 control.

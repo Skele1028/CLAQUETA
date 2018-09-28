@@ -3,7 +3,7 @@
     <script src="../Scripts/Registro.js"></script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <asp:Panel ID="FormRegistro" runat="server" Width="100%">
+    <asp:Panel ID="FormRegistro" CssClass="FormRegistro" runat ="server" Width="60%" HorizontalAlign="Center">
         <table class="tableResgitro">
             <tr>
                 <td>

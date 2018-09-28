@@ -6,6 +6,8 @@
 <head runat="server">
     <title></title>
     <link href="../Estilos/Style.css" rel="stylesheet" />
+     <link rel="stylesheet" type="text/css" href="../Estilos/estiloPeliculas.css">
+
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>

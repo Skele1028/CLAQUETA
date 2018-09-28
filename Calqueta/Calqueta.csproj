@@ -67,10 +67,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Estilos\estiloPeliculas.css" />
     <Content Include="Images\circulo.png" />
     <Content Include="Estilos\Style.css" />
     <Content Include="Images\lock.png" />
     <Content Include="Images\TablaCine.png" />
+    <Content Include="Images\terminator.jpg" />
     <Content Include="Images\user.png" />
     <Content Include="Modulos\DescripcionPeliculas.aspx" />
     <Content Include="Modulos\Estrenos.aspx" />

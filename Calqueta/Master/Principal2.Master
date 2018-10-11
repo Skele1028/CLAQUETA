@@ -43,7 +43,7 @@
                                         <DynamicMenuStyle BackColor="#F0F0F0" />
                                         <DynamicSelectedStyle BackColor="#000000" />
                                         <Items>
-                                            <asp:MenuItem Text="Iniciar Seccion" Value="Estrenos" NavigateUrl="~/Modulos/InicioSeccion.aspx"></asp:MenuItem>
+                                            <asp:MenuItem Text="Iniciar Seccion" Value="Estrenos" NavigateUrl="~/Modulos/IniciarSeccion.aspx"></asp:MenuItem>
                                             <asp:MenuItem Text="Registro" Value="Películas" NavigateUrl="~/Modulos/Registro.aspx"></asp:MenuItem>
                                         </Items>
                                         <StaticHoverStyle BackColor="Silver" ForeColor="Black"  />

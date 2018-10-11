@@ -77,7 +77,6 @@
                      &nbsp;</td>
             </tr>
         </table>
-        
     </div><!--Fin ContendorRegistro -->
 
 </asp:Content>

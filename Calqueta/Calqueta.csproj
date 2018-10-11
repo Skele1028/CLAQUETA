@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Estilos\estiloInicioSeccion.css" />
     <Content Include="Estilos\estiloPeliculas.css" />
     <Content Include="Estilos\estiloRegistro.css" />
     <Content Include="Estilos\StyleP.css" />
@@ -78,14 +79,12 @@
     <Content Include="Images\user.png" />
     <Content Include="Modulos\DescripcionPeliculas.aspx" />
     <Content Include="Modulos\Estrenos.aspx" />
-    <Content Include="Modulos\InicioSeccion.aspx" />
+    <Content Include="Modulos\IniciarSeccion.aspx" />
     <Content Include="Modulos\Peliculas.aspx" />
     <Content Include="Modulos\PeliculasFavoritas.aspx" />
     <Content Include="Modulos\PerfilUsuario.aspx" />
     <Content Include="Modulos\Registro.aspx" />
     <Content Include="Modulos\SalasDeCine.aspx" />
-    <Content Include="Scripts\InicioSeccion.js" />
-    <Content Include="Scripts\Registro.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -110,12 +109,12 @@
     <Compile Include="Modulos\Estrenos.aspx.designer.cs">
       <DependentUpon>Estrenos.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Modulos\InicioSeccion.aspx.cs">
-      <DependentUpon>InicioSeccion.aspx</DependentUpon>
+    <Compile Include="Modulos\IniciarSeccion.aspx.cs">
+      <DependentUpon>IniciarSeccion.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Modulos\InicioSeccion.aspx.designer.cs">
-      <DependentUpon>InicioSeccion.aspx</DependentUpon>
+    <Compile Include="Modulos\IniciarSeccion.aspx.designer.cs">
+      <DependentUpon>IniciarSeccion.aspx</DependentUpon>
     </Compile>
     <Compile Include="Modulos\Peliculas.aspx.cs">
       <DependentUpon>Peliculas.aspx</DependentUpon>
@@ -166,7 +165,9 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Scripts\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

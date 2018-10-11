@@ -1,0 +1,72 @@
+﻿@font-face {
+    font-family: 'Arimo-Bold';
+    src: url('Fuentes/Arimo-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'HussarBold';
+    src: url('Fuentes/HussarBold.ttf') format('truetype');
+}
+
+body
+{
+}
+
+tbMaster {
+    width: 100%;
+    font-family: HussarBold;
+}
+
+.header {
+
+}
+
+.contHeader {
+    position: relative;
+    display: inline-block;
+    width:auto;
+}
+
+imaClaqueta{
+    width:auto;
+}
+
+.tittle {
+    position: absolute;
+    top: 13px;
+    left: 20px;
+    color: white;
+    font-family: HussarBold;
+    font-size: 130%;
+}
+
+.imaCirculo {
+    position: absolute;
+    top: 22px;
+    left: 195px;
+}
+
+.contMenu {
+    overflow-x: auto;
+}
+
+.menuPrinc{
+    width:90%;
+    font-family:HussarBold  ;
+    font-size: 20px;
+    overflow-x:auto;
+}
+
+.btsUsuario {
+    position: absolute;
+    right: 11px;
+    top: 93.5px;
+  
+    font-family: HussarBold;
+    font-size: 20px;
+  
+}
+
+.footer {
+
+}

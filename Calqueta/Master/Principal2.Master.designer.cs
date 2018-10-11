@@ -10,7 +10,7 @@
 namespace Calqueta.Master {
     
     
-    public partial class Principal {
+    public partial class Principal2 {
         
         /// <summary>
         /// head control.
@@ -31,22 +31,22 @@ namespace Calqueta.Master {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// ImaTablaCine control.
+        /// imaClaqueta control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image ImaTablaCine;
+        protected global::System.Web.UI.WebControls.Image imaClaqueta;
         
         /// <summary>
-        /// ImaCirculo control.
+        /// imaCirculo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton ImaCirculo;
+        protected global::System.Web.UI.WebControls.ImageButton imaCirculo;
         
         /// <summary>
         /// MenuPrinc control.
@@ -56,6 +56,15 @@ namespace Calqueta.Master {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Menu MenuPrinc;
+        
+        /// <summary>
+        /// mnBtsUsuario control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Menu mnBtsUsuario;
         
         /// <summary>
         /// ContentPlaceHolder1 control.

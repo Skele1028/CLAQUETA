@@ -13,31 +13,31 @@ namespace Calqueta.Modulos {
     public partial class Registro {
         
         /// <summary>
-        /// FormRegistro control.
+        /// txUser control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel FormRegistro;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText txUser;
         
         /// <summary>
-        /// txTipoDocumento control.
+        /// dlTipoDoc control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList txTipoDocumento;
+        protected global::System.Web.UI.WebControls.DropDownList dlTipoDoc;
         
         /// <summary>
-        /// txDocumento control.
+        /// txIdentificacion control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText txDocumento;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText txIdentificacion;
         
         /// <summary>
         /// txNombre control.
@@ -49,31 +49,13 @@ namespace Calqueta.Modulos {
         protected global::System.Web.UI.HtmlControls.HtmlInputText txNombre;
         
         /// <summary>
-        /// txSegundoNombre control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText txSegundoNombre;
-        
-        /// <summary>
         /// txApellido control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txApellido;
-        
-        /// <summary>
-        /// txSegundoApellido control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txSegundoApellido;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText txApellido;
         
         /// <summary>
         /// txCorreo control.
@@ -82,7 +64,7 @@ namespace Calqueta.Modulos {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText txCorreo;
+        protected global::System.Web.UI.HtmlControls.HtmlInputGenericControl txCorreo;
         
         /// <summary>
         /// txCorreo2 control.
@@ -91,42 +73,24 @@ namespace Calqueta.Modulos {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText txCorreo2;
+        protected global::System.Web.UI.HtmlControls.HtmlInputGenericControl txCorreo2;
         
         /// <summary>
-        /// txContrasenia control.
+        /// txContra control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputPassword txContrasenia;
+        protected global::System.Web.UI.HtmlControls.HtmlInputPassword txContra;
         
         /// <summary>
-        /// txContrasenia2 control.
+        /// txContra2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputPassword txContrasenia2;
-        
-        /// <summary>
-        /// btRegistrar control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btRegistrar;
-        
-        /// <summary>
-        /// btSalir control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btSalir;
+        protected global::System.Web.UI.HtmlControls.HtmlInputPassword txContra2;
     }
 }

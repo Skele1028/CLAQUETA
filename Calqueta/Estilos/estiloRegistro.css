@@ -1,0 +1,72 @@
+﻿@font-face {
+    font-family: 'Arimo-Bold';
+    src: url('Fuentes/Arimo-Bold.ttf') format('truetype');
+}
+
+.contRegistro {
+    background-color: black;
+    position: relative;
+    width: 50%;
+    opacity: 0.5;
+    left: 23%;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 6px;
+}
+
+.tbRegistro {
+    width: 100%;
+    text-align: center;
+
+}
+
+.tittleRegisto {
+    color: slategrey;
+    font-family: Arimo-Bold;
+    font-size:35px;
+    padding-right:50%;
+    padding-top:10%;
+}
+
+label {
+    color: whitesmoke;
+    font-family: Arimo-Bold;
+    text-align: center;
+}
+
+.dlTipoDoc {
+    width:97%;
+    padding: 12px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+input[type=text] {
+    width: 90%;
+    padding: 12px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+input[type=email] {
+    width: 90%;
+    padding: 12px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+input[type=password] {
+    width: 90%;
+    padding: 12px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}

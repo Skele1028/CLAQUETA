@@ -68,10 +68,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Estilos\estiloPeliculas.css" />
-    <Content Include="Images\circulo.png" />
+    <Content Include="Estilos\estiloRegistro.css" />
+    <Content Include="Estilos\StyleP.css" />
+    <Content Include="Images\Master\circulo.png" />
     <Content Include="Estilos\Style.css" />
     <Content Include="Images\lock.png" />
-    <Content Include="Images\TablaCine.png" />
+    <Content Include="Images\Master\claqueta.png" />
     <Content Include="Images\terminator.jpg" />
     <Content Include="Images\user.png" />
     <Content Include="Modulos\DescripcionPeliculas.aspx" />
@@ -87,12 +89,12 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Master\Principal.Master.cs">
-      <DependentUpon>Principal.Master</DependentUpon>
+    <Compile Include="Master\Principal2.Master.cs">
+      <DependentUpon>Principal2.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Master\Principal.Master.designer.cs">
-      <DependentUpon>Principal.Master</DependentUpon>
+    <Compile Include="Master\Principal2.Master.designer.cs">
+      <DependentUpon>Principal2.Master</DependentUpon>
     </Compile>
     <Compile Include="Modulos\DescripcionPeliculas.aspx.cs">
       <DependentUpon>DescripcionPeliculas.aspx</DependentUpon>
@@ -153,9 +155,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Master\Principal.Master" />
-    <Content Include="Estilos\HussarBold.ttf" />
-    <Content Include="Estilos\Arimo-Bold.ttf" />
+    <Content Include="Estilos\Fuentes\HussarBold.ttf" />
+    <Content Include="Estilos\Fuentes\Arimo-Bold.ttf" />
+    <Content Include="Master\Principal2.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

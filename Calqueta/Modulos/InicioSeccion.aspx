@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Master/Principal.Master" AutoEventWireup="true" CodeBehind="InicioSeccion.aspx.cs" Inherits="Calqueta.Modulos.InicioSeccion" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Master/Principal2.Master" AutoEventWireup="true" CodeBehind="InicioSeccion.aspx.cs" Inherits="Calqueta.Modulos.InicioSeccion" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <script src="../Scripts/InicioSeccion.js"></script>
 </asp:Content>

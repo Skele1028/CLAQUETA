@@ -1,73 +1,83 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Master/Principal.Master" AutoEventWireup="true" CodeBehind="Registro.aspx.cs" Inherits="Calqueta.Modulos.Registro" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Master/Principal2.Master" AutoEventWireup="true" CodeBehind="Registro.aspx.cs" Inherits="Calqueta.Modulos.Registro" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <script src="../Scripts/Registro.js"></script>
+    <link href="../Estilos/estiloRegistro.css" rel="stylesheet" />
+
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <asp:Panel ID="FormRegistro" CssClass="FormRegistro" runat ="server" Width="60%" HorizontalAlign="Center">
-        <table class="tableResgitro">
+    <p> Hola, prueba de registro</p><br />
+    <div class="contRegistro"> <!--ContenedorRegistro -->
+        <table class="tbRegistro">
+             <tr>
+                 <td colspan="2">
+                     <label class="tittleRegisto"> Registro</label></td>
+            </tr>
             <tr>
-                <td>
-                    <label>Tipo de documento (</label><label Class="asteriscos">*</label><label>):</label><br />
-                    <asp:DropDownList CssClass="txbT" ID="txTipoDocumento" runat="server">
-                        <asp:ListItem>CC</asp:ListItem>
-                        <asp:ListItem>TI</asp:ListItem>
-                        <asp:ListItem>Pasaporte</asp:ListItem>
-                    </asp:DropDownList>
-                </td>
-                <td>
-                    <label>Número de documento (</label><label Class="asteriscos">*</label><label>):</label><br />
-                    <input id="txDocumento" type="text" runat="server" ClientIDMode="Static" onkeypress="return checkDocumento(event)"/>
+                <td colspan="2">
                 </td>
             </tr>
             <tr>
                 <td>
-                    <label>Nombre (</label><label Class="asteriscos">*</label><label>):</label><br />
-                    <input id="txNombre" type="text" runat="server" ClientIDMode="Static" onkeypress="return checkNombre(event)"/>
+                     <label> Usuario </label> <br />
                 </td>
                 <td>
-                    <label>Segundo nombre:</label><br />
-                    <input id="txSegundoNombre" type="text" runat="server" ClientIDMode="Static" onkeypress="return checkNombre(event)"/>
+                    <input id="txUser" type="text" runat="server"/>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <label>Apellido (</label><label Class="asteriscos">*</label><label>):</label><br />
-                    <asp:TextBox CssClass="txbT" type="text" ID="txApellido" runat="server"></asp:TextBox>
+                     <label> Tipo de Identificación </label> <br />
+                     <asp:DropDownList CssClass="dlTipoDoc" ID="dlTipoDoc" runat="server">
+                         <asp:ListItem></asp:ListItem>
+                         <asp:ListItem>Cedula de Ciudadania</asp:ListItem>
+                         <asp:ListItem>Tarjeta de Identidad</asp:ListItem>
+                         <asp:ListItem>Pasaporte</asp:ListItem>
+                         <asp:ListItem>Cedula de Extranjeria</asp:ListItem>
+                     </asp:DropDownList>
                 </td>
                 <td>
-                    <label>Segundo apellido:</label><br />
-                    <asp:TextBox ID="txSegundoApellido" runat="server" CssClass="txbT" type="text"></asp:TextBox>
+                     <label> Identificación </label> <br />
+                     <input id="txIdentificacion" type="text" runat="server"/>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <label>Correo electrónico (</label><label Class="asteriscos">*</label><label>):</label><br />
-                    <input id="txCorreo" type="text" runat="server" ClientIDMode="Static"/>
+                     <label> Nombre </label> <br />
+                    <input id="txNombre" type="text" runat="server"/>
                 </td>
                 <td>
-                    <label>Confirmar correo eletrónico (</label><label Class="asteriscos">*</label><label>):</label><br />
-                    <input id="txCorreo2" type="text" onchange="validar_correo()" runat="server" ClientIDMode="Static"/>
+                    <label> Apellido </label> <br />
+                    <input id="txApellido" type="text" runat="server"/>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <label>Contraseña (</label><label Class="asteriscos">*</label><label>):</label><br />
-                    <input type="password" id="txContrasenia" runat="server" ClientIDMode="Static"/>
+                     <label> Correo </label> <br />
+                    <input id="txCorreo" type="email" runat="server"/>
                 </td>
                 <td>
-                    <label>Confirmar contraseña (</label><label Class="asteriscos">*</label><label>):</label><br />
-                    <input type="password" id="txContrasenia2" onchange="validar_clave()" runat="server" ClientIDMode="Static" />
+                     <label> Confirmar Correo </label> <br />
+                    <input id="txCorreo2" type="email" runat="server"/>
+
                 </td>
             </tr>
             <tr>
-                <td></td>
                 <td>
-                    <div class="contentBts">
-                        <asp:Button class="button" ID="btRegistrar" runat="server" OnClick="btIngresar_Click" onSubmit="return validar_clave()" Text="Registrarse" />
-                        <asp:Button class="button" ID="btSalir" runat="server" OnClick="btSalir_Click" Text="   Salir   " />
-                   </div>
+                     <label> Contraseña </label> <br />
+                    <input id="txContra" type="password" runat="server"/>
                 </td>
+                <td>
+                     <label> Confirmar Contraseña </label> <br />
+                     <input id="txContra2" type="password" runat="server"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                     &nbsp;</td>
+                <td>
+                     &nbsp;</td>
             </tr>
         </table>
-    </asp:Panel>
+        
+    </div><!--Fin ContendorRegistro -->
+
 </asp:Content>

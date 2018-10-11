@@ -13,20 +13,14 @@
     width:100%;
 }
 
-.trSup{
-    background-color:black;
-}
-
-.contImaText {
+.contImaText { /*ok*/
     position: relative;
-    display: inline-block;
-    text-align: center;
-    width: 100%;
+    display: inline-block
 }
 
 .tittle {
     position: absolute;
-    top: 32%;
+    top: 30%;
     left: 2%;
     color: white;
     font-family: HussarBold;
@@ -35,18 +29,29 @@
 
 .imaCirculo {
     position: absolute;
-    top: 30%;
-    left: 12%;
+    top: 29%;
+    left: 13%;
+}
+
+.contenedorMenus {
+    position:static ;
+    display: inline-block;
+    width: 100%;
 }
 
 .menuPrinc {
-    font-family:HussarBold;
-    font-size:25px;
-    color: black;
-    width:100%;
-    height:25%;
-    display:flex;
-    align-content:space-around;
+    position: absolute;
+    left: 0%;
+    width: 100%;
+    font-family: HussarBold;
+    font-size: 20px;
+}
+
+.btsUsuario {
+    position: absolute;
+    right: 20%;
+    font-family: HussarBold;
+    font-size: 20px;
 }
 
 label {
@@ -98,40 +103,12 @@ input[type=text] {
 }
 /*FIN MASTER*/
 
-/*REGISTRO*/
-
-
-.tableResgitro {
-    width: 100%;
-    
-}
-
-.FormRegistro{
-    padding-left:17%;
-}
-td {
-    width: 50%;
-}
-/*listBox*/
-.txbT {
-    width: 95%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-}
-
-.asteriscos {
-    color: red;
-}
-/*FIN REGISTRO*/
 
 /*INICIO SECCION*/
 .contInicio {
     /*descomentar para que quede sobre el fondo*/
     /* position: relative;*/
-    display: inline-block;
+    /* display: inline-block;*/
     text-align: center;
     width: 100%;
     /* background-color: silver;  */
@@ -161,4 +138,3 @@ td {
 .tdTx{
     width:40%
 }
-

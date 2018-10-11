@@ -72,7 +72,6 @@
     <Content Include="Estilos\estiloRegistro.css" />
     <Content Include="Estilos\StyleP.css" />
     <Content Include="Images\Master\circulo.png" />
-    <Content Include="Estilos\Style.css" />
     <Content Include="Images\lock.png" />
     <Content Include="Images\Master\claqueta.png" />
     <Content Include="Images\terminator.jpg" />
@@ -85,6 +84,7 @@
     <Content Include="Modulos\PerfilUsuario.aspx" />
     <Content Include="Modulos\Registro.aspx" />
     <Content Include="Modulos\SalasDeCine.aspx" />
+    <Content Include="Scripts\Registro.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -165,9 +165,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Scripts\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

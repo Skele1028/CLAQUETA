@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Master/Principal2.Master" AutoEventWireup="true" CodeBehind="Registro.aspx.cs" Inherits="Calqueta.Modulos.Registro" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="../Estilos/estiloRegistro.css" rel="stylesheet" />
-
+    <script src="../Scripts/Registro.js"></script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <p> Hola, prueba de registro</p><br />
@@ -36,17 +36,17 @@
                 </td>
                 <td>
                      <label> Identificación </label> <br />
-                     <input id="txIdentificacion" type="text" runat="server"/>
+                     <input id="txIdentificacion" type="text" runat="server" onkeypress="return checkDocumento(event)"/>
                 </td>
             </tr>
             <tr>
                 <td>
                      <label> Nombre </label> <br />
-                    <input id="txNombre" type="text" runat="server"/>
+                    <input id="txNombre" type="text" runat="server" onkeypress="return checkNombre(event)"/>
                 </td>
                 <td>
                     <label> Apellido </label> <br />
-                    <input id="txApellido" type="text" runat="server"/>
+                    <input id="txApellido" type="text" runat="server" onkeypress="return checkNombre(event)"/>
                 </td>
             </tr>
             <tr>
@@ -63,11 +63,11 @@
             <tr>
                 <td>
                      <label> Contraseña </label> <br />
-                    <input id="txContra" type="password" runat="server"/>
+                    <input id="txContra" type="password" runat="server" ClientIDMode="Static" onchange="validar_correo()"/>
                 </td>
                 <td>
                      <label> Confirmar Contraseña </label> <br />
-                     <input id="txContra2" type="password" runat="server"/>
+                     <input id="txContra2" type="password" runat="server" ClientIDMode="Static" onchange="validar_clave()"/>
                 </td>
             </tr>
             <tr>

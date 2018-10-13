@@ -67,7 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Estilos\estiloInicioSeccion.css" />
+    <Content Include="Estilos\estiloInicioSesion.css" />
     <Content Include="Estilos\estiloPeliculas.css" />
     <Content Include="Estilos\estiloRegistro.css" />
     <Content Include="Estilos\StyleP.css" />
@@ -78,14 +78,16 @@
     <Content Include="Images\user.png" />
     <Content Include="Modulos\DescripcionPeliculas.aspx" />
     <Content Include="Modulos\Estrenos.aspx" />
-    <Content Include="Modulos\IniciarSeccion.aspx" />
+    <Content Include="Modulos\IniciarSesion.aspx" />
     <Content Include="Modulos\Peliculas.aspx" />
     <Content Include="Modulos\PeliculasFavoritas.aspx" />
     <Content Include="Modulos\PerfilUsuario.aspx" />
     <Content Include="Modulos\Registro.aspx" />
     <Content Include="Modulos\SalasDeCine.aspx" />
     <Content Include="Scripts\Registro.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Master\Principal2.Master.cs">
@@ -109,12 +111,12 @@
     <Compile Include="Modulos\Estrenos.aspx.designer.cs">
       <DependentUpon>Estrenos.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Modulos\IniciarSeccion.aspx.cs">
-      <DependentUpon>IniciarSeccion.aspx</DependentUpon>
+    <Compile Include="Modulos\IniciarSesion.aspx.cs">
+      <DependentUpon>IniciarSesion.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Modulos\IniciarSeccion.aspx.designer.cs">
-      <DependentUpon>IniciarSeccion.aspx</DependentUpon>
+    <Compile Include="Modulos\IniciarSesion.aspx.designer.cs">
+      <DependentUpon>IniciarSesion.aspx</DependentUpon>
     </Compile>
     <Compile Include="Modulos\Peliculas.aspx.cs">
       <DependentUpon>Peliculas.aspx</DependentUpon>

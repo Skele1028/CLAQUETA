@@ -36,7 +36,7 @@
                 </td>
                 <td>
                      <label> Identificación </label> <br />
-                     <input id="txIdentificacion" type="text" runat="server" onkeypress="return checkDocumento(event)"/>
+                     <input id="txIdentificacion" type="number" runat="server" onkeypress="return checkDocumento(event)" />
                 </td>
             </tr>
             <tr>
@@ -51,12 +51,13 @@
             </tr>
             <tr>
                 <td>
-                     <label> Correo </label> <br />
-                    <input id="txCorreo" type="email" runat="server"/>
+                     <label> Correo </label>
+                     <br />
+                    <input id="txCorreo" type="email" runat="server" onkeypress="return checkCorreo(event)"/>
                 </td>
                 <td>
                      <label> Confirmar Correo </label> <br />
-                    <input id="txCorreo2" type="email" runat="server"/>
+                    <input id="txCorreo2" type="email" runat="server" onkeypress="return checkCorreo(event)"/>
 
                 </td>
             </tr>
@@ -68,6 +69,20 @@
                 <td>
                      <label> Confirmar Contraseña </label> <br />
                      <input id="txContra2" type="password" runat="server" ClientIDMode="Static" onchange="validar_clave()"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                     &nbsp;</td>
+                <td>
+                     &nbsp;</td>
+            </tr>
+            <tr>
+                <td>
+                     <asp:Button class="button" ID="btRegistrar" runat="server" Text="Registrar" />
+                </td>
+                <td>
+                     <asp:Button class="button" ID="btCancelar" runat="server" Text="Cancelar" />
                 </td>
             </tr>
             <tr>

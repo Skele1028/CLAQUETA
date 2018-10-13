@@ -5,24 +5,23 @@
         return true;
     }
     // Patron de entrada, en este caso solo acepta letras
-    patron = /\[0-9]/;
+    patron = /[A-Za-z]/;
     tecla_final = String.fromCharCode(tecla);
+    focus();
     return patron.test(tecla_final);
 }
+//function checkDocumento(e) {
+ //   tecla = (document.all) ? e.keyCode : e.which;
+ //   //Tecla de retroceso para borrar, siempre la permite
+ //   if (tecla == 8) {
+ //       return true;
+ //   }
+ //   // Patron de entrada, en este caso solo acepta letras
+ //   patron = /^[0-9]\d$/;
+ //   tecla_final = String.fromCharCode(tecla);
 
-function checkDocumento(e) {
-    tecla = (document.all) ? e.keyCode : e.which;
-    //Tecla de retroceso para borrar, siempre la permite
-    if (tecla == 8) {
-        return true;
-    }
-    // Patron de entrada, en este caso solo acepta letras
-    patron = /\d/;
-    tecla_final = String.fromCharCode(tecla);
-    return patron.test(tecla_final);
-}
-
-
+ //   return patron.test(tecla_final);
+//}
 
 function validar_correo() {
     var correo1 = document.getElementById('txCorreo').value;

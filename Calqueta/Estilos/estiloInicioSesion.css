@@ -3,17 +3,17 @@
     src: url('Fuentes/Arimo-Bold.ttf') format('truetype');
 }
 
-.contInicioSeccion {
+.contInicioSesion {
     background-color: gray;
     position: relative;
     width: 30%;
-    opacity: 0.5;
+    opacity: 0.8;
     padding-left: 30px;
     padding-right: 30px;
     border-radius: 6px;
 }
 
-.tbInicioSeccion {
+.tbInicioSesion {
     width: 100%;
     text-align: center;
 }

@@ -4,10 +4,10 @@
 }
 
 .contRegistro {
-    background-color: black;
+    background-color: gray;
     position: relative;
     width: 50%;
-    opacity: 0.5;
+    opacity: 0.8;
     left: 23%;
     text-align: center;
     padding-left: 30px;
@@ -22,14 +22,14 @@
 }
 
 .tittleRegisto {
-    color: slategrey;
+    color: black;
     font-family: Arimo-Bold;
     font-size:35px;
     padding-top:10%;
 }
 
 label {
-    color: whitesmoke;
+    color: black;
     font-family: Arimo-Bold;
     text-align: center;
 }
@@ -62,6 +62,15 @@ input[type=email] {
 }
 
 input[type=password] {
+    width: 90%;
+    padding: 12px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+input[type=number] {
     width: 90%;
     padding: 12px;
     margin: 4px 0;

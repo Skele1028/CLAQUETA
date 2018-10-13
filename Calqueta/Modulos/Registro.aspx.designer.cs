@@ -37,7 +37,7 @@ namespace Calqueta.Modulos {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText txIdentificacion;
+        protected global::System.Web.UI.HtmlControls.HtmlInputGenericControl txIdentificacion;
         
         /// <summary>
         /// txNombre control.
@@ -92,5 +92,23 @@ namespace Calqueta.Modulos {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlInputPassword txContra2;
+        
+        /// <summary>
+        /// btRegistrar control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btRegistrar;
+        
+        /// <summary>
+        /// btCancelar control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btCancelar;
     }
 }

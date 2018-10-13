@@ -61,12 +61,23 @@ imaClaqueta{
     position: absolute;
     right: 11px;
     top: 93.5px;
-  
     font-family: HussarBold;
     font-size: 20px;
   
 }
 
-.footer {
-
+.button {
+    border-radius: 3px;
+    margin-top: 12px;
+    width: 170px;
+    text-align: center;
+    background-color: black;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    margin-left: 10%;
+    margin-right: 10%;
 }
+
+

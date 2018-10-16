@@ -5,7 +5,7 @@
         return true;
     }
     // Patron de entrada, en este caso solo acepta letras
-    patron = /[A-Za-z]/;
+    patron = /[\0-9+a-zA-Z]/;
     tecla_final = String.fromCharCode(tecla);
     focus();
     return patron.test(tecla_final);
@@ -17,7 +17,7 @@
  //       return true;
  //   }
  //   // Patron de entrada, en este caso solo acepta letras
- //   patron = /^[0-9]\d$/;
+ //   patron = /^[0-9]d$/;
  //   tecla_final = String.fromCharCode(tecla);
 
  //   return patron.test(tecla_final);

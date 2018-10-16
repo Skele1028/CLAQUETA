@@ -24,7 +24,7 @@
                 </td>
             </tr>
             <tr>
-                <td>
+                <td>    
                      <label> Tipo de Identificación </label> <br />
                      <asp:DropDownList CssClass="dlTipoDoc" ID="dlTipoDoc" runat="server">
                          <asp:ListItem></asp:ListItem>

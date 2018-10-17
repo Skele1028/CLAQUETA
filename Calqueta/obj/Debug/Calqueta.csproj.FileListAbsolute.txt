@@ -142,3 +142,6 @@ C:\Users\Milmax\Documents\GitHub\CLAQUETA\Calqueta\obj\Debug\Calqueta.csproj.Cor
 C:\Users\Milmax\Documents\GitHub\CLAQUETA\Calqueta\obj\Debug\Calqueta.csproj.CopyComplete
 C:\Users\Milmax\Documents\GitHub\CLAQUETA\Calqueta\obj\Debug\Calqueta.dll
 C:\Users\Milmax\Documents\GitHub\CLAQUETA\Calqueta\obj\Debug\Calqueta.pdb
+C:\Users\admin-lcc\Documents\GitHub\CLAQUETA\Calqueta\obj\Debug\Calqueta.csprojResolveAssemblyReference.cache
+C:\Users\admin-lcc\Documents\GitHub\CLAQUETA\Calqueta\obj\Debug\Calqueta.dll
+C:\Users\admin-lcc\Documents\GitHub\CLAQUETA\Calqueta\obj\Debug\Calqueta.pdb
